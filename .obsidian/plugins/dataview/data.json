@@ -1,0 +1,8 @@
+{
+  "enableInlineDataview": true,
+  "enableDataviewJs": false,
+  "inlineQueryPrefix": "=",
+  "inlineJsQueryPrefix": "$=",
+  "tableIdColumnName": "File",
+  "refreshInterval": 2500
+}

@@ -1,0 +1,32 @@
+{
+  "daily": {
+    "enabled": true,
+    "format": "YYYY-MM-DD",
+    "folder": "0-plan/daily",
+    "template": "_templates/tpl-daily.md"
+  },
+  "weekly": {
+    "enabled": true,
+    "format": "YYYY-[W]WW",
+    "folder": "0-plan/weekly",
+    "template": "_templates/tpl-weekly.md"
+  },
+  "monthly": {
+    "enabled": true,
+    "format": "YYYY-MM",
+    "folder": "0-plan/monthly",
+    "template": "_templates/tpl-monthly.md"
+  },
+  "quarterly": {
+    "enabled": true,
+    "format": "YYYY-[Q]Q",
+    "folder": "0-plan/quarterly",
+    "template": "_templates/tpl-quarterly.md"
+  },
+  "yearly": {
+    "enabled": true,
+    "format": "YYYY",
+    "folder": "0-plan/yearly",
+    "template": "_templates/tpl-yearly.md"
+  }
+}

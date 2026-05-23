@@ -1,0 +1,241 @@
+{
+  "main": {
+    "id": "b488c77666a82f32",
+    "type": "split",
+    "children": [
+      {
+        "id": "118fa4fbe191e175",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "8bedf7bc0396da66",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "5-notes/Jane Smith.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Jane Smith"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "fccd952c131f0e08",
+    "type": "split",
+    "children": [
+      {
+        "id": "512585315f810d2e",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "2cdd9d5ea4040e16",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "6f0f73ed7263b50d",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "f9924edac7ecdddb",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "08e7d1ebd2ac976a",
+    "type": "split",
+    "children": [
+      {
+        "id": "547cd2904db390bc",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "4fc2472c16c6a97d",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "5-notes/Jane Smith.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for Jane Smith"
+            }
+          },
+          {
+            "id": "f244ee182e41ae14",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "5-notes/Jane Smith.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from Jane Smith"
+            }
+          },
+          {
+            "id": "7c4754e99527e654",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "42d601df60215d35",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "All properties"
+            }
+          },
+          {
+            "id": "6718e23a3f5b28a0",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "5-notes/Jane Smith.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of Jane Smith"
+            }
+          },
+          {
+            "id": "cd538d531e973d67",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {},
+              "icon": "calendar-with-checkmark",
+              "title": "Calendar"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "bases:Create new base": false,
+      "obsidian-kanban:Create new board": false,
+      "obsidian-git:Open Git source control": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
+      "templater-obsidian:Templater": false,
+      "copilot:Open Copilot Chat": false,
+      "terminal:Open terminal": false,
+      "omnisearch:Omnisearch": false
+    }
+  },
+  "active": "8bedf7bc0396da66",
+  "lastOpenFiles": [
+    "5-notes/Jane Smith.md",
+    "5-notes/Kickoff Meeting - Couch to 5K.md",
+    "5-notes/Untitled.md",
+    "validate.py",
+    "START HERE.md",
+    "5-notes/Idea - Morning routine tweak.md",
+    "1-projects/Couch to 5K Training Program.md",
+    "2-areas/Run a 5K.md",
+    "README.md",
+    "2-areas/Health & Fitness.md",
+    "_templates/tpl-task-note.md",
+    "_templates/tpl-yearly.md",
+    "_templates/tpl-quarterly.md",
+    "_templates/tpl-monthly.md",
+    "_templates/tpl-weekly.md",
+    "_templates/tpl-daily.md",
+    "_templates/tpl-meeting.md",
+    "_templates/tpl-person.md",
+    "_templates/tpl-fleeting-note.md",
+    "PLAN.md",
+    "_templates/tpl-project.md",
+    "_templates/tpl-goal.md",
+    "_templates/tpl-area.md",
+    "_templates",
+    "5-notes",
+    "4-archives",
+    "3-resources",
+    "2-areas",
+    "1-projects",
+    "0-plan/yearly",
+    "0-plan/weekly",
+    "0-plan/quarterly",
+    "obsibrain-agent-prompt.md",
+    "copilot/copilot-custom-prompts/Translate to Chinese.md",
+    "copilot/copilot-custom-prompts/Clip Web Page.md"
+  ]
+}

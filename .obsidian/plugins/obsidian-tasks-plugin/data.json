@@ -1,0 +1,12 @@
+{
+  "globalFilter": "",
+  "globalQuery": "",
+  "removeGlobalFilter": false,
+  "setCreatedDate": true,
+  "autoSuggestInEditor": true,
+  "useFilenameAsScheduledDate": false,
+  "recurrenceOnNextLine": false,
+  "dueDateFormat": "YYYY-MM-DD",
+  "scheduledDateFormat": "YYYY-MM-DD",
+  "doneDateFormat": "YYYY-MM-DD"
+}
