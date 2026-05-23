@@ -2,8 +2,10 @@
 const location = await tp.system.prompt("Location", "");
 const attendeesRaw = await tp.system.prompt("Attendees (comma-separated note names)", "");
 const projectLink = await tp.system.prompt("Project wikilink target (blank for none)", "");
-const locationLine = location ? `location: ${location}` : `location: `;
-const projectLine = projectLink ? `project: "[[${projectLink}]]"` : `project: `;
+const locationTrim = (location || "").trim();
+const projectTrim = (projectLink || "").trim();
+const locationLine = locationTrim ? `location: ${locationTrim}` : `location: `;
+const projectLine = projectTrim ? `project: "[[${projectTrim}]]"` : `project: `;
 const attendeesBlock = attendeesRaw
   ? `attendees:\n${attendeesRaw.split(",").map((a) => `  - "[[${a.trim()}]]"`).join("\n")}`
   : `attendees: []`;

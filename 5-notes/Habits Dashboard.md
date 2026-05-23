@@ -22,7 +22,12 @@ const trackerData = {
 };
 
 const freqOf = (t) => {
-  const m = t.text.match(/\[habitFreq::\s*(daily|weekly|monthly)\]/i);
+  const raw = t.habitFreq ?? t["habit-freq"];
+  if (typeof raw === "string") {
+    const v = raw.toLowerCase();
+    if (v === "daily" || v === "weekly" || v === "monthly") return v;
+  }
+  const m = t.text?.match(/\[habitFreq::\s*(daily|weekly|monthly)\]/i);
   return m ? m[1].toLowerCase() : null;
 };
 
@@ -49,7 +54,11 @@ for (const [key, count] of buckets.entries()) {
   });
 }
 
-renderHeatmapTracker(this.container, trackerData);
+if (typeof renderHeatmapTracker === "function") {
+  renderHeatmapTracker(this.container, trackerData);
+} else {
+  dv.paragraph("Heatmap Tracker plugin is not loaded (renderHeatmapTracker missing).");
+}
 ```
 
 ---

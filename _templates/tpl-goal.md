@@ -7,7 +7,8 @@ const status = await tp.system.suggester(
 );
 const areaLink = await tp.system.prompt("Area wikilink target (blank for none)", "");
 const targetDate = await tp.system.prompt("Target date (YYYY-MM-DD, blank for none)", "");
-const areaLine = areaLink ? `area: "[[${areaLink}]]"` : `area: `;
+const areaTrim = (areaLink || "").trim();
+const areaLine = areaTrim ? `area: "[[${areaTrim}]]"` : `area: `;
 const targetDateLine = targetDate ? `target_date: ${targetDate}` : `target_date: `;
 -%>
 ---

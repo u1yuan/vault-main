@@ -14,8 +14,10 @@ const priority = await tp.system.suggester(
 const deadline = await tp.system.prompt("Deadline (YYYY-MM-DD, blank for none)", "");
 const goalLink = await tp.system.prompt("Goal wikilink target (e.g. Run a 5K, blank for none)", "");
 const areaLink = await tp.system.prompt("Area wikilink target (e.g. Health & Fitness, blank for none)", "");
-const goalLine = goalLink ? `goal: "[[${goalLink}]]"` : `goal: `;
-const areaLine = areaLink ? `area: "[[${areaLink}]]"` : `area: `;
+const goalTrim = (goalLink || "").trim();
+const areaTrim = (areaLink || "").trim();
+const goalLine = goalTrim ? `goal: "[[${goalTrim}]]"` : `goal: `;
+const areaLine = areaTrim ? `area: "[[${areaTrim}]]"` : `area: `;
 const deadlineLine = deadline ? `deadline: ${deadline}` : `deadline: `;
 -%>
 ---

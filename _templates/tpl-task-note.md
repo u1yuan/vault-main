@@ -14,8 +14,10 @@ const priority = await tp.system.suggester(
 const due = await tp.system.prompt("Due date (YYYY-MM-DD, blank for none)", "");
 const projectLink = await tp.system.prompt("Project wikilink target (blank for none)", "");
 const areaLink = await tp.system.prompt("Area wikilink target (blank for none)", "");
-const projectLine = projectLink ? `project: "[[${projectLink}]]"` : `project: `;
-const areaLine = areaLink ? `area: "[[${areaLink}]]"` : `area: `;
+const projectTrim = (projectLink || "").trim();
+const areaTrim = (areaLink || "").trim();
+const projectLine = projectTrim ? `project: "[[${projectTrim}]]"` : `project: `;
+const areaLine = areaTrim ? `area: "[[${areaTrim}]]"` : `area: `;
 const dueLine = due ? `due: ${due}` : `due: `;
 -%>
 ---

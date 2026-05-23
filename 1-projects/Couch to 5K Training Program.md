@@ -47,7 +47,8 @@ sort by done
 - [ ] Week 1 Run 2 — 20 min intervals 📅 2025-01-10 🔼
 
 ## Sample Habits (heatmap test data)
-- [x] Morning stretch 🔁 every day [habitFreq:: daily] ✅ 2025-01-07
-- [x] Morning stretch 🔁 every day [habitFreq:: daily] ✅ 2025-01-08
-- [x] Weekly long run 🔁 every week [habitFreq:: weekly] ✅ 2025-01-05
-- [x] Monthly gear check 🔁 every month [habitFreq:: monthly] ✅ 2025-01-01
+- [x] Morning stretch [habitFreq:: daily] ✅ 2026-05-21
+- [x] Morning stretch [habitFreq:: daily] ✅ 2026-05-22
+- [x] Morning stretch [habitFreq:: daily] ✅ 2026-05-23
+- [x] Weekly long run [habitFreq:: weekly] ✅ 2026-05-17
+- [x] Monthly gear check [habitFreq:: monthly] ✅ 2026-05-01
