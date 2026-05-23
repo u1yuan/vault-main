@@ -4,17 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "118fa4fbe191e175",
+        "id": "046f7d32548dc6c7",
         "type": "tabs",
         "children": [
           {
-            "id": "8bedf7bc0396da66",
+            "id": "ec62fce199b2df46",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
                 "file": "5-notes/Habits Dashboard.md",
-                "mode": "preview",
+                "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
@@ -201,10 +201,19 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "8bedf7bc0396da66",
+  "active": "ec62fce199b2df46",
   "lastOpenFiles": [
-    "5-notes/test.md",
+    "Untitled.md",
+    "0-plan/daily/2026-05-23.md",
+    "1-projects/Thesis Sprints/Week 0 Setup.md",
+    "1-projects/Thesis Sprints/Phase 1 — Foundation.md",
+    "1-projects/Thesis Sprints/How Each Sprint Works.md",
+    "1-projects/Thesis Sprints/Phase 3E — Energy Track.md",
+    "1-projects/Thesis Sprints/Phase 2 — Track P1 and Math.md",
+    "1-projects/Thesis Sprints/Phase 3N — NLP Track.md",
+    "1-projects/Thesis Sprints/Cross-cutting Habits.md",
     "5-notes/Habits Dashboard.md",
+    "5-notes/test.md",
     "START HERE.md",
     "README.md",
     "4-archives/PLAN.md",
@@ -229,15 +238,6 @@
     "_templates/tpl-task-note.md",
     "_templates/tpl-yearly.md",
     "_templates/tpl-quarterly.md",
-    "_templates/tpl-monthly.md",
-    "_templates/tpl-weekly.md",
-    "_templates/tpl-daily.md",
-    "_templates/tpl-meeting.md",
-    "_templates/tpl-person.md",
-    "_templates/tpl-fleeting-note.md",
-    "_templates/tpl-project.md",
-    "_templates/tpl-goal.md",
-    "_templates/tpl-area.md",
-    "obsibrain-agent-prompt.md"
+    "_templates/tpl-monthly.md"
   ]
 }

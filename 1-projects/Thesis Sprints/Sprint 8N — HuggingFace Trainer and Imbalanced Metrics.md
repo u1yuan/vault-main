@@ -1,0 +1,38 @@
+---
+type: sprint
+sprint: 8N
+phase: "[[Phase 3N — NLP Track]]"
+tags: [thesis, sprint-curriculum, nlp]
+priority: P2
+status: pending
+created: 2026-05-23
+---
+
+# Sprint 8N — HuggingFace Trainer and Imbalanced Metrics
+
+← [[Sprint 7N — NLP Preprocessing Pipeline]] · [[Phase 3N — NLP Track]] · Next → [[Sprint 9N — Sociolinguistics and Research Ethics]]
+
+**Maps to:** P2 — HF Trainer API; P2 — Classification metrics for imbalanced data
+
+## Project: "Fine-tune with defensible metrics"
+
+Fine-tune a small transformer (DistilBERT → then **RoBERTa** or multilingual checkpoint) on an **imbalanced** text dataset. Use `TrainingArguments` (warmup, effective batch size, gradient accumulation on Colab T4), early stopping, checkpointing. Primary metric: **F1-macro**; also PR curve, confusion matrix, optional `class_weight`.
+
+## Deliverables
+
+- W&B/MLflow run matrix
+- Defence sheet: why not accuracy? F1-macro vs F1-weighted?
+
+## Resources
+
+- HF Course ch. 3, 5–6
+- Tunstall et al. *NLP with Transformers*
+
+## Sprint checklist
+
+- [ ] Week 1: concept note + baseline fine-tune
+- [ ] Week 2: full training matrix + tagged release `sprint-8N`
+- [ ] Defence sheet (5 Q&A)
+- [ ] 2 figures at 300 DPI
+
+See [[How Each Sprint Works]] · [[Cross-cutting Habits]]
