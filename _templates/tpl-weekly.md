@@ -13,7 +13,8 @@ tags: [plan/weekly]
 ## 🧹 CLOSE — Clean Sweep
 
 - [ ] Process and empty `5-notes/` inbox
-- [ ] Archive completed projects (move to `4-archives/`)
+- [ ] Archive completed projects (move to `4-archives/` or run **Archive (recursive)**)
+- [ ] Check [[Habits Dashboard#Unresolved frontmatter links (Weekly Review)|unresolved frontmatter links]]
 - [ ] Clear physical desk and digital downloads folder
 - [ ] Review and close open browser tabs
 

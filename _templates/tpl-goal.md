@@ -1,8 +1,20 @@
+<%*
+const status = await tp.system.suggester(
+  ["ongoing", "on hold", "completed", "canceled"],
+  ["ongoing", "on hold", "completed", "canceled"],
+  false,
+  "Status"
+);
+const areaLink = await tp.system.prompt("Area wikilink target (blank for none)", "");
+const targetDate = await tp.system.prompt("Target date (YYYY-MM-DD, blank for none)", "");
+const areaLine = areaLink ? `area: "[[${areaLink}]]"` : `area: `;
+const targetDateLine = targetDate ? `target_date: ${targetDate}` : `target_date: `;
+-%>
 ---
 type: goal
-status: ongoing
-area: "[[]]"
-target_date: 
+status: <% status %>
+<% areaLine %>
+<% targetDateLine %>
 achieved_date: 
 tags: []
 created: <% tp.date.now("YYYY-MM-DD") %>

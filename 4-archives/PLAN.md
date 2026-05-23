@@ -1,3 +1,6 @@
+---
+status: completed
+---
 # AGENT PROMPT: Build a Pseudo-ObsiBrain Obsidian Vault
 
 > **Mode:** Plan  

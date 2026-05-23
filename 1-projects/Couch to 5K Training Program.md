@@ -45,3 +45,9 @@ sort by done
 - [ ] Week 1 Run 1 — 20 min intervals 📅 2025-01-08 ⏫
 - [ ] Buy proper running shoes 📅 2025-01-07 🔼
 - [ ] Week 1 Run 2 — 20 min intervals 📅 2025-01-10 🔼
+
+## Sample Habits (heatmap test data)
+- [x] Morning stretch 🔁 every day [habitFreq:: daily] ✅ 2025-01-07
+- [x] Morning stretch 🔁 every day [habitFreq:: daily] ✅ 2025-01-08
+- [x] Weekly long run 🔁 every week [habitFreq:: weekly] ✅ 2025-01-05
+- [x] Monthly gear check 🔁 every month [habitFreq:: monthly] ✅ 2025-01-01

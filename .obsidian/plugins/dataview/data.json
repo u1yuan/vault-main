@@ -1,6 +1,6 @@
 {
   "enableInlineDataview": true,
-  "enableDataviewJs": false,
+  "enableDataviewJs": true,
   "inlineQueryPrefix": "=",
   "inlineJsQueryPrefix": "$=",
   "tableIdColumnName": "File",

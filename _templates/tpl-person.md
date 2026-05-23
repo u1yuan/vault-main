@@ -1,9 +1,15 @@
+<%*
+const phone = await tp.system.prompt("Phone", "");
+const email = await tp.system.prompt("Email", "");
+const title = await tp.system.prompt("Title", "");
+const company = await tp.system.prompt("Company", "");
+-%>
 ---
 type: person
-phone: 
-email: 
-title: 
-company: 
+phone: <% phone %>
+email: <% email %>
+title: <% title %>
+company: <% company %>
 tags: [notes/people]
 created: <% tp.date.now("YYYY-MM-DD") %>
 ---

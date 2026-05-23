@@ -1,4 +1,51 @@
 {
+  "installedVersion": "1.0.0-beta1",
+  "activeCalendarSet": "Default",
+  "showGettingStartedBanner": true,
+  "hasMigratedDailyNoteSettings": false,
+  "hasMigratedWeeklyNoteSettings": false,
+  "calendarSets": [
+    {
+      "day": {
+        "enabled": true,
+        "format": "YYYY-MM-DD",
+        "folder": "0-plan/daily",
+        "openAtStartup": false,
+        "templatePath": "_templates/tpl-daily.md"
+      },
+      "week": {
+        "enabled": true,
+        "format": "YYYY-[W]WW",
+        "folder": "0-plan/weekly",
+        "openAtStartup": false,
+        "templatePath": "_templates/tpl-weekly.md"
+      },
+      "month": {
+        "enabled": true,
+        "format": "YYYY-MM",
+        "folder": "0-plan/monthly",
+        "openAtStartup": false,
+        "templatePath": "_templates/tpl-monthly.md"
+      },
+      "quarter": {
+        "enabled": true,
+        "format": "YYYY-[Q]Q",
+        "folder": "0-plan/quarterly",
+        "openAtStartup": false,
+        "templatePath": "_templates/tpl-quarterly.md"
+      },
+      "year": {
+        "enabled": true,
+        "format": "YYYY",
+        "folder": "0-plan/yearly",
+        "openAtStartup": false,
+        "templatePath": "_templates/tpl-yearly.md"
+      },
+      "id": "Default",
+      "ctime": "2026-05-23T08:31:16+08:00"
+    }
+  ],
+  "enableTimelineComplication": true,
   "daily": {
     "enabled": true,
     "format": "YYYY-MM-DD",

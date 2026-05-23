@@ -2,10 +2,5 @@
   "template_folder": "_templates",
   "auto_jump_to_cursor": true,
   "trigger_on_file_creation": true,
-  "folder_templates": [
-    { "folder": "1-projects", "template": "_templates/tpl-project.md" },
-    { "folder": "2-areas", "template": "_templates/tpl-area.md" },
-    { "folder": "3-resources", "template": "_templates/tpl-fleeting-note.md" },
-    { "folder": "5-notes", "template": "_templates/tpl-fleeting-note.md" }
-  ]
+  "folder_templates": []
 }
