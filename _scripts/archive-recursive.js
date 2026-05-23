@@ -37,11 +37,7 @@ module.exports = async (params) => {
   const dependents = [...collectDependents(activeFile)].sort();
   const defaultSelected = [activeFile.path, ...dependents];
 
-  const chosen = await quickAddApi.checkboxPrompt(
-    defaultSelected,
-    defaultSelected,
-    "Select files to archive (recursive dependents)"
-  );
+  const chosen = await quickAddApi.checkboxPrompt(defaultSelected, defaultSelected);
   if (!chosen || chosen.length === 0) {
     new Notice("Archive cancelled.");
     return;

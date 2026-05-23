@@ -1,6 +1,6 @@
 {
   "template_folder": "_templates",
   "auto_jump_to_cursor": true,
-  "trigger_on_file_creation": true,
+  "trigger_on_file_creation": false,
   "folder_templates": []
 }

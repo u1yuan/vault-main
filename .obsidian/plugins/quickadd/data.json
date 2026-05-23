@@ -236,6 +236,26 @@
         ]
       },
       "runOnStartup": false
+    },
+    {
+      "name": "Self Test",
+      "id": "a100000b-0001-4000-8000-00000000000b",
+      "type": "Macro",
+      "command": true,
+      "macro": {
+        "id": "a100000c-0001-4000-8000-00000000000c",
+        "name": "QuickAdd Self Test",
+        "commands": [
+          {
+            "id": "a100000d-0001-4000-8000-00000000000d",
+            "name": "_scripts/quickadd-self-test.js",
+            "type": "UserScript",
+            "path": "_scripts/quickadd-self-test.js",
+            "settings": {}
+          }
+        ]
+      },
+      "runOnStartup": false
     }
   ],
   "inputPrompt": "add",
