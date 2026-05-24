@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "5-notes/Habits Dashboard.md",
+                "file": "1-projects/Thesis Sprints/How Each Sprint Works.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Habits Dashboard"
+              "title": "How Each Sprint Works"
             }
           }
         ]
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "PLAN.md",
+                "file": "1-projects/Thesis Sprints/How Each Sprint Works.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for PLAN"
+              "title": "Backlinks for How Each Sprint Works"
             }
           },
           {
@@ -171,20 +171,18 @@
             "state": {
               "type": "calendar",
               "state": {},
-              "icon": "calendar-with-checkmark",
-              "title": "Calendar"
+              "icon": "lucide-ghost",
+              "title": "calendar"
             }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
-      "periodic-notes:Open today's daily note": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
@@ -198,11 +196,15 @@
       "templater-obsidian:Templater": false,
       "copilot:Open Copilot Chat": false,
       "terminal:Open terminal": false,
-      "omnisearch:Omnisearch": false
+      "omnisearch:Omnisearch": false,
+      "periodic-notes:Open today's daily note": false
     }
   },
   "active": "ec62fce199b2df46",
   "lastOpenFiles": [
+    "1-projects/Thesis Sprints/Thesis Sprint Curriculum.md",
+    "1-projects/Thesis Sprints/Cross-cutting Habits.md",
+    "5-notes/Habits Dashboard.md",
     "Untitled.md",
     "0-plan/daily/2026-05-23.md",
     "1-projects/Thesis Sprints/Week 0 Setup.md",
@@ -211,8 +213,6 @@
     "1-projects/Thesis Sprints/Phase 3E — Energy Track.md",
     "1-projects/Thesis Sprints/Phase 2 — Track P1 and Math.md",
     "1-projects/Thesis Sprints/Phase 3N — NLP Track.md",
-    "1-projects/Thesis Sprints/Cross-cutting Habits.md",
-    "5-notes/Habits Dashboard.md",
     "5-notes/test.md",
     "START HERE.md",
     "README.md",
@@ -237,7 +237,6 @@
     "2-areas/Health & Fitness.md",
     "_templates/tpl-task-note.md",
     "_templates/tpl-yearly.md",
-    "_templates/tpl-quarterly.md",
-    "_templates/tpl-monthly.md"
+    "_templates/tpl-quarterly.md"
   ]
 }
