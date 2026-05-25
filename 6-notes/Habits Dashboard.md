@@ -14,10 +14,8 @@ const trackerData = {
   separateMonths: true,
   heatmapTitle: "Habit completions (365 days)",
   heatmapSubtitle: "Completed tasks with habitFreq inline field",
-  colors: {
-    daily: ["#ebedf0", "#9be9a8", "#40c463", "#30a14e", "#216e39"],
-    weekly: ["#ebedf0", "#9ec5fe", "#388bfd", "#0969da", "#0550ae"],
-    monthly: ["#ebedf0", "#ffdfba", "#ffa657", "#fb8500", "#bc4b00"]
+  colorScheme: {
+    paletteName: "default"
   }
 };
 
@@ -25,32 +23,37 @@ const freqOf = (t) => {
   const raw = t.habitFreq ?? t["habit-freq"];
   if (typeof raw === "string") {
     const v = raw.toLowerCase();
-    if (v === "daily" || v === "weekly" || v === "monthly") return v;
+    if (["daily", "weekly", "monthly"].includes(v)) return v;
   }
   const m = t.text?.match(/\[habitFreq::\s*(daily|weekly|monthly)\]/i);
   return m ? m[1].toLowerCase() : null;
 };
 
-const buckets = new Map();
+// Map frequency to intensity (1-4)
+const freqWeight = { daily: 1, weekly: 2, monthly: 4 };
 
-for (const page of dv.pages()) {
+const buckets = new Map(); // date -> { totalIntensity: number, freqs: Set<string> }
+
+// Only scan pages that might have tasks
+for (const page of dv.pages('""').where(p => p.file.tasks.length > 0)) {
   for (const t of page.file.tasks) {
     if (!t.completed || !t.completion) continue;
     const freq = freqOf(t);
     if (!freq) continue;
+
     const date = t.completion.toFormat("yyyy-MM-dd");
-    const key = `${date}|${freq}`;
-    buckets.set(key, (buckets.get(key) ?? 0) + 1);
+    const bucket = buckets.get(date) ?? { intensity: 0, freqs: new Set() };
+    bucket.intensity += freqWeight[freq] ?? 1;
+    bucket.freqs.add(freq);
+    buckets.set(date, bucket);
   }
 }
 
-for (const [key, count] of buckets.entries()) {
-  const [date, freq] = key.split("|");
+for (const [date, data] of buckets.entries()) {
   trackerData.entries.push({
     date,
-    intensity: count,
-    color: freq,
-    content: freq[0].toUpperCase()
+    intensity: Math.min(data.intensity, 4), // Cap at max palette level
+    content: Array.from(data.freqs).map(f => f[0].toUpperCase()).join("")
   });
 }
 
@@ -67,13 +70,13 @@ if (typeof renderHeatmapTracker === "function") {
 
 ```dataview
 TABLE WITHOUT ID
-  completion AS "Completed",
-  text AS "Task",
-  choice(contains(text, "daily"), "daily", choice(contains(text, "weekly"), "weekly", choice(contains(text, "monthly"), "monthly", ""))) AS "Frequency"
+  task.completion AS "Completed",
+  task.text AS "Task",
+  choice(contains(task.text, "daily"), "daily", choice(contains(task.text, "weekly"), "weekly", choice(contains(task.text, "monthly"), "monthly", ""))) AS "Frequency"
 FROM ""
 FLATTEN file.tasks AS task
 WHERE task.completed AND task.completion AND contains(task.text, "habitFreq::")
-SORT completion DESC
+SORT task.completion DESC
 ```
 
 ---

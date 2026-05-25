@@ -38,7 +38,7 @@ created: <% tp.date.now("YYYY-MM-DD") %>
 ## Details
 
 ## Tasks
-- [ ] 
+- [x]  ✅ 2026-05-25
 
 ## ✅ Open Tasks in This Note
 ```tasks

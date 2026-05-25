@@ -10,9 +10,9 @@ tags: [plan/monthly]
 
 ## 🧹 CLOSE
 
-- [ ] Complete weekly close for the final week
-- [ ] Archive any stalled projects (no progress in 30+ days)
-- [ ] Review recurring tasks — delete or adjust frequency
+- [x] Complete weekly close for the final week ✅ 2026-05-25
+- [x] Archive any stalled projects (no progress in 30+ days) ✅ 2026-05-25
+- [x] Review recurring tasks — delete or adjust frequency ✅ 2026-05-25
 
 ---
 

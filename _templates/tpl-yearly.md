@@ -10,9 +10,9 @@ tags: [plan/yearly]
 
 ## 🧹 CLOSE
 
-- [ ] Complete quarterly close
-- [ ] Archive the full previous year's daily/weekly notes (optional)
-- [ ] Back up the vault
+- [x] Complete quarterly close ✅ 2026-05-25
+- [x] Archive the full previous year's daily/weekly notes (optional) ✅ 2026-05-25
+- [x] Back up the vault ✅ 2026-05-25
 
 ---
 

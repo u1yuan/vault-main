@@ -26,5 +26,5 @@ created: 2025-01-06
 - Check-ins every Sunday via text
 
 ## Action Items
-- [ ] Download Nike Running Club app 📅 2025-01-07
-- [ ] Schedule Week 1 runs in calendar 📅 2025-01-07
+- [x] Download Nike Running Club app 📅 2025-01-07 ✅ 2026-05-25
+- [x] Schedule Week 1 runs in calendar 📅 2025-01-07 ✅ 2026-05-25

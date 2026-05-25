@@ -10,9 +10,9 @@ tags: [plan/quarterly]
 
 ## 🧹 CLOSE
 
-- [ ] Complete monthly close
-- [ ] Archive all completed and canceled projects
-- [ ] Review all Goals — mark completed or adjust targets
+- [x] Complete monthly close ✅ 2026-05-25
+- [x] Archive all completed and canceled projects ✅ 2026-05-25
+- [x] Review all Goals — mark completed or adjust targets ✅ 2026-05-25
 
 ---
 

@@ -1,10 +1,11 @@
 ---
 type: goal
-status: ongoing
+status: canceled
 area: "[[Health & Fitness]]"
 target_date: 2025-09-30
-achieved_date: 
-tags: [goal]
+achieved_date:
+tags:
+  - goal
 created: 2025-01-05
 ---
 

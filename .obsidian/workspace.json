@@ -4,24 +4,39 @@
     "type": "split",
     "children": [
       {
-        "id": "046f7d32548dc6c7",
+        "id": "a501969e5cb4927c",
         "type": "tabs",
         "children": [
           {
-            "id": "ec62fce199b2df46",
+            "id": "a18cb24252318258",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "1-projects/Thesis Sprints/How Each Sprint Works.md",
+                "file": "5-archives/2-areas/Run a 5K.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "How Each Sprint Works"
+              "title": "Run a 5K"
+            }
+          },
+          {
+            "id": "6c0329188883ec3e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "6-notes/Habits Dashboard.md",
+                "mode": "preview",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Habits Dashboard"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -94,7 +109,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "1-projects/Thesis Sprints/How Each Sprint Works.md",
+                "file": "6-notes/Habits Dashboard.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +119,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for How Each Sprint Works"
+              "title": "Backlinks for Habits Dashboard"
             }
           },
           {
@@ -179,7 +194,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -200,43 +216,43 @@
       "periodic-notes:Open today's daily note": false
     }
   },
-  "active": "ec62fce199b2df46",
+  "active": "6c0329188883ec3e",
   "lastOpenFiles": [
-    "1-projects/Thesis Sprints/Thesis Sprint Curriculum.md",
-    "1-projects/Thesis Sprints/Cross-cutting Habits.md",
-    "5-notes/Habits Dashboard.md",
-    "Untitled.md",
+    "2026-05-25.md",
+    "0-plan/daily/2026-05-25.md",
+    "6-notes/Habits Dashboard.md",
     "0-plan/daily/2026-05-23.md",
-    "1-projects/Thesis Sprints/Week 0 Setup.md",
-    "1-projects/Thesis Sprints/Phase 1 — Foundation.md",
-    "1-projects/Thesis Sprints/How Each Sprint Works.md",
-    "1-projects/Thesis Sprints/Phase 3E — Energy Track.md",
-    "1-projects/Thesis Sprints/Phase 2 — Track P1 and Math.md",
-    "1-projects/Thesis Sprints/Phase 3N — NLP Track.md",
-    "5-notes/test.md",
+    "6-notes/Idea - Morning routine tweak.md",
+    "2-areas/FEU Tech ACM Student Chapter.md",
+    "Untitled.md",
+    "4-resources",
+    "1-projects/ACM TechSprint Asteria 2026.md",
+    "5-archives/2-areas/Run a 5K.md",
+    "5-archives/2-areas",
+    "2-areas/Health & Fitness.md",
     "START HERE.md",
+    "1-projects/11-thesis-prologue/notebooks",
+    "1-projects/11-thesis-prologue/sprint-plan/Cross-cutting Habits.md",
+    "1-projects/11-thesis-prologue/models",
+    "1-projects/11-thesis-prologue/docs",
+    "1-projects/11-thesis-prologue/sprint-plan",
+    "1-projects/11-thesis-prologue/sprint-plan/Week 0 Setup.md",
     "README.md",
-    "4-archives/PLAN.md",
+    "1-projects/11-thesis-prologue/sprint-plan/README 1.md",
+    "1-projects/11-thesis-prologue/sprint-plan/How Each Sprint Works.md",
+    "1-projects/11-thesis-prologue/sprint-plan/Thesis Sprint Curriculum.md",
+    "1-projects/11-thesis-prologue/sprint-plan/Phase 1 — Foundation.md",
+    "1-projects/11-thesis-prologue/sprint-plan/Phase 3E — Energy Track.md",
+    "1-projects/11-thesis-prologue/sprint-plan/Phase 2 — Track P1 and Math.md",
+    "1-projects/11-thesis-prologue/sprint-plan/Phase 3N — NLP Track.md",
+    "5-notes/test.md",
+    "5-archives/PLAN.md",
     "0-meta/Conventions.md",
-    "5-notes/Jane Smith.md",
+    "6-notes/Jane Smith.md",
     "0-meta",
     "_scripts/archive-recursive.js",
     "_scripts/_extract-qa9.js",
     "_scripts/_extract-qa8.js",
-    "_scripts/_extract-qa7.js",
-    "_scripts/_extract-qa6.js",
-    "_scripts/_extract-qa5.js",
-    "_scripts/_extract-qa4.js",
-    "_scripts/_extract-qa3.js",
-    "_scripts/_extract-qa2.js",
-    "5-notes/Kickoff Meeting - Couch to 5K.md",
-    "5-notes/Untitled.md",
-    "5-notes/Idea - Morning routine tweak.md",
-    "1-projects/Couch to 5K Training Program.md",
-    "2-areas/Run a 5K.md",
-    "2-areas/Health & Fitness.md",
-    "_templates/tpl-task-note.md",
-    "_templates/tpl-yearly.md",
-    "_templates/tpl-quarterly.md"
+    "6-notes/Kickoff Meeting - Couch to 5K.md"
   ]
 }

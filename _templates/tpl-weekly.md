@@ -12,11 +12,11 @@ tags: [plan/weekly]
 
 ## 🧹 CLOSE — Clean Sweep
 
-- [ ] Process and empty `5-notes/` inbox
-- [ ] Archive completed projects (move to `4-archives/` or run **Archive (recursive)**)
-- [ ] Check [[Habits Dashboard#Unresolved frontmatter links (Weekly Review)|unresolved frontmatter links]]
-- [ ] Clear physical desk and digital downloads folder
-- [ ] Review and close open browser tabs
+- [x] Process and empty `5-notes/` inbox ✅ 2026-05-25
+- [x] Archive completed projects (move to `4-archives/` or run **Archive (recursive)**) ✅ 2026-05-25
+- [x] Check [[Habits Dashboard#Unresolved frontmatter links (Weekly Review)|unresolved frontmatter links]] ✅ 2026-05-25
+- [x] Clear physical desk and digital downloads folder ✅ 2026-05-25
+- [x] Review and close open browser tabs ✅ 2026-05-25
 
 ---
 
