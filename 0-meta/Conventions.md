@@ -20,21 +20,7 @@ Bare strings (`goal: Run a 5K`) will **not** update when the target note is rena
 
 **Setting:** Settings → Files & Links → **Automatically update internal links** (enabled).
 
-During Weekly Review, scan the [[Habits Dashboard#Unresolved frontmatter links (Weekly Review)|broken-link query]] on the Habits Dashboard.
-
-## Habit tasks (heatmap data source)
-
-Habit completion heatmaps read from the Tasks plugin. Each habit task line must include:
-
-```markdown
-- [ ] Morning stretch 🔁 every day [habitFreq:: daily]
-- [ ] Weekly review 🔁 every week [habitFreq:: weekly]
-- [ ] Monthly budget 🔁 every month [habitFreq:: monthly]
-```
-
-Allowed `habitFreq` values: `daily`, `weekly`, `monthly`.
-
-When marked complete, the Tasks plugin records the completion date (`✅ YYYY-MM-DD`), which feeds the heatmap on [[Habits Dashboard]].
+During Weekly Review, scan the [[Vault Activity#Unresolved frontmatter links (Weekly Review)|broken-link query]] on the Vault Activity dashboard.
 
 ## Archive workflow
 
