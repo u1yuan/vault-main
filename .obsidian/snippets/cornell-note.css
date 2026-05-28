@@ -1,0 +1,36 @@
+/* Cornell Note Snippet */
+.cornell-note {
+    --cue-width: 25%;
+    --gap: 2rem;
+}
+
+.cornell-note .markdown-rendered {
+    position: relative;
+}
+
+/* On desktop, create the side-by-side effect */
+@media (min-width: 768px) {
+    .cornell-note h3 {
+        position: absolute;
+        left: 0;
+        width: var(--cue-width);
+        margin: 0;
+        padding-right: 1rem;
+        border-right: 1px solid var(--background-modifier-border);
+        font-size: 1rem;
+        color: var(--text-accent);
+        text-align: right;
+    }
+
+    .cornell-note h3 + *, 
+    .cornell-note h3 + * + *,
+    .cornell-note h3 + * + * + * {
+        margin-left: calc(var(--cue-width) + var(--gap));
+    }
+    
+    .cornell-note .summary-section {
+        border-top: 2px solid var(--background-modifier-border);
+        margin-top: 2rem;
+        padding-top: 1rem;
+    }
+}
