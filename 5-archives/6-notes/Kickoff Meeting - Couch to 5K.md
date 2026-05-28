@@ -1,19 +1,21 @@
 ---
 type: meeting
 scheduled: 2025-01-06
-location: "Zoom"
-tags: [notes/meeting]
+location: Zoom
+tags:
+  - notes/meeting
 attendees:
-  - "[[Jane Smith]]"
+  - "[[5-archives/6-notes/Jane Smith]]"
 project: "[[Couch to 5K Training Program]]"
 created: 2025-01-06
+status: completed
 ---
 
 # Kickoff Meeting — Couch to 5K
 
 **Date:** Tuesday, January 6, 2025  
 **Location:** Zoom  
-**Attendees:** [[Jane Smith]]
+**Attendees:** [[5-archives/6-notes/Jane Smith]]
 
 ---
 

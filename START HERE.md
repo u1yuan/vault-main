@@ -17,10 +17,10 @@ This vault is built on the **P.A.R.A. + GTD** framework. Everything you need sta
 |--------|-----|
 | Open today's plan | Periodic Notes: *Open today's daily note* |
 | Create a new task | Type `- [ ]` anywhere in a Project or Area note |
-| Capture a fleeting thought | Create a new note in `5-notes/` |
+| Capture a fleeting thought | Create a new note in `6-notes/` |
 | Create a new project | Duplicate `_templates/tpl-project.md` → move to `1-projects/` |
 | Create a new goal | Duplicate `_templates/tpl-goal.md` → move to `2-areas/` |
-| Add a contact | Duplicate `_templates/tpl-person.md` → move to `5-notes/` |
+| Add a contact | Duplicate `_templates/tpl-person.md` → move to `6-notes/` |
 | Start a weekly review | Periodic Notes: *Open this week's weekly note* |
 
 ---
@@ -33,8 +33,8 @@ This vault is built on the **P.A.R.A. + GTD** framework. Everything you need sta
 | `1-projects/` | Active projects with deadlines |
 | `2-areas/` | Life responsibilities + goals |
 | `3-resources/` | Reference material and interests |
-| `4-archives/` | Completed or inactive items |
-| `5-notes/` | Digital inbox: captures, contacts, meetings |
+| `5-archives/` | Completed or inactive items |
+| `6-notes/` | Digital inbox: captures, contacts, meetings |
 | `_templates/` | Do not edit directly — use Templater |
 
 ---
@@ -103,7 +103,7 @@ Create one Project in `1-projects/`. Link it to a Goal. Write your SMART Outcome
 | Cadence | What to do |
 |---------|-----------|
 | **Daily** | Open today's Daily Note. Work through Overdue → Due Today → Ongoing. Journal at end of day. |
-| **Weekly (Sunday)** | Run the Weekly Review: Close → Reflect → Plan. Empty the `5-notes/` inbox. |
+| **Weekly (Sunday)** | Run the Weekly Review: Close → Reflect → Plan. Empty the `6-notes/` inbox. |
 | **Monthly** | Run Monthly Review. Assess Goal progress. Adjust Project priorities. |
 | **Quarterly** | Full Wheel of Life check. Reset Goals if needed. 80/20 analysis. |
 | **Yearly** | Year-in-review reflection. Design the next year's vision. |

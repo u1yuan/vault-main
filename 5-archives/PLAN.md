@@ -21,8 +21,8 @@ You are building a **pseudo-ObsiBrain vault** — a free, open-source approximat
 - A five-tier periodic review system (daily / weekly / monthly / quarterly / yearly)
 - Task management via the Tasks plugin with due, scheduled, priority, and repeat support
 - Habit tracking via repeating Tasks plugin tasks with a `habitFreq` inline field
-- A Quick Capture inbox (`5-notes/`)
-- A lightweight CRM system (People + Meeting notes) stored in `5-notes/`
+- A Quick Capture inbox (`6-notes/`)
+- A lightweight CRM system (People + Meeting notes) stored in `6-notes/`
 - Live relational views via Dataview
 - A `START HERE.md` onboarding file at the vault root
 
@@ -39,7 +39,7 @@ You will work in **sequential phases**. Complete each phase fully before advanci
 5. **Templater syntax** (`<% %>`) is only used inside files stored in the `_templates/` folder.
 6. **Never hardcode today's date.** Always use Templater expressions (`<% tp.date.now(...) %>`) or Tasks plugin relative date keywords (`today`, `tomorrow`).
 7. **Wikilinks** use `[[Note Name]]` format. Never use markdown hyperlinks `[text](path)` for internal vault navigation.
-8. **Folder names must exactly match** the naming convention: `0-plan`, `1-projects`, `2-areas`, `3-resources`, `4-archives`, `5-notes`. Do not alter the numeric prefixes or casing.
+8. **Folder names must exactly match** the naming convention: `0-plan`, `1-projects`, `2-areas`, `3-goals`, `4-resources`, `5-archives`, `6-notes`. Do not alter the numeric prefixes or casing.
 9. **Status values are case-sensitive** and must be one of: `ongoing`, `on hold`, `completed`, `canceled`.
 10. **Priority values** must be one of: `high`, `medium`, `low`.
 11. Do not install, reference, or depend on the proprietary ObsiBrain plugin. This vault must work with only Obsidian core features plus the five community plugins listed in Phase 2.
@@ -63,9 +63,10 @@ Create the following folder tree at the vault root. Create a `.gitkeep` placehol
 │   └── yearly/                    ← yearly review notes land here
 ├── 1-projects/                    ← one note per active project
 ├── 2-areas/                       ← one note per life area + goal notes
-├── 3-resources/                   ← reference material notes
-├── 4-archives/                    ← completed/inactive items
-├── 5-notes/                       ← inbox: fleeting notes, people, meetings
+├── 3-goals/                       ← goal notes (linked to areas)
+├── 4-resources/                   ← reference material notes
+├── 5-archives/                    ← completed/inactive items
+├── 6-notes/                       ← inbox: fleeting notes, people, meetings
 └── _templates/                    ← Templater templates (never edited directly by user)
     ├── tpl-daily.md
     ├── tpl-weekly.md
@@ -350,12 +351,12 @@ created: <% tp.date.now("YYYY-MM-DD") %>
 ---
 
 ## Meeting History
-\`\`\`dataview
+```dataview
 TABLE scheduled AS "Date", location AS "Location"
-FROM "5-notes"
+FROM "6-notes"
 WHERE type = "meeting" AND contains(attendees, this.file.link)
 SORT scheduled DESC
-\`\`\`
+```
 
 ## Tasks Mentioning This Person
 \`\`\`tasks
@@ -470,7 +471,7 @@ short mode
 
 \`\`\`dataview
 TABLE location AS "Where", attendees AS "Who"
-FROM "5-notes"
+FROM "6-notes"
 WHERE type = "meeting" AND scheduled = date("<% tp.date.now("YYYY-MM-DD") %>")
 \`\`\`
 
@@ -523,8 +524,8 @@ tags: [plan/weekly]
 
 ## 🧹 CLOSE — Clean Sweep
 
-- [ ] Process and empty `5-notes/` inbox
-- [ ] Archive completed projects (move to `4-archives/`)
+- [ ] Process and empty `6-notes/` inbox
+- [ ] Archive completed projects (move to `5-archives/`)
 - [ ] Clear physical desk and digital downloads folder
 - [ ] Review and close open browser tabs
 
@@ -952,7 +953,7 @@ sort by done
 
 ---
 
-### 4d. Example Person — `5-notes/Jane Smith.md`
+### 4d. Example Person — `6-notes/Jane Smith.md`
 
 ```markdown
 ---
@@ -976,12 +977,12 @@ created: 2025-01-06
 ---
 
 ## Meeting History
-\`\`\`dataview
+```dataview
 TABLE scheduled AS "Date", location AS "Location"
-FROM "5-notes"
+FROM "6-notes"
 WHERE type = "meeting" AND contains(attendees, this.file.link)
 SORT scheduled DESC
-\`\`\`
+```
 
 ## Tasks Mentioning This Person
 \`\`\`tasks
@@ -1000,7 +1001,7 @@ SORT file.mtime DESC
 
 ---
 
-### 4e. Example Meeting — `5-notes/Kickoff Meeting - Couch to 5K.md`
+### 4e. Example Meeting — `6-notes/Kickoff Meeting - Couch to 5K.md`
 
 ```markdown
 ---
@@ -1037,7 +1038,7 @@ created: 2025-01-06
 
 ---
 
-### 4f. Example Fleeting Note — `5-notes/Idea - Morning routine tweak.md`
+### 4f. Example Fleeting Note — `6-notes/Idea - Morning routine tweak.md`
 
 ```markdown
 ---
@@ -1082,10 +1083,10 @@ This vault is built on the **P.A.R.A. + GTD** framework. Everything you need sta
 |--------|-----|
 | Open today's plan | Periodic Notes: *Open today's daily note* |
 | Create a new task | Type `- [ ]` anywhere in a Project or Area note |
-| Capture a fleeting thought | Create a new note in `5-notes/` |
+| Capture a fleeting thought | Create a new note in `6-notes/` |
 | Create a new project | Duplicate `_templates/tpl-project.md` → move to `1-projects/` |
 | Create a new goal | Duplicate `_templates/tpl-goal.md` → move to `2-areas/` |
-| Add a contact | Duplicate `_templates/tpl-person.md` → move to `5-notes/` |
+| Add a contact | Duplicate `_templates/tpl-person.md` → move to `6-notes/` |
 | Start a weekly review | Periodic Notes: *Open this week's weekly note* |
 
 ---
@@ -1098,8 +1099,8 @@ This vault is built on the **P.A.R.A. + GTD** framework. Everything you need sta
 | `1-projects/` | Active projects with deadlines |
 | `2-areas/` | Life responsibilities + goals |
 | `3-resources/` | Reference material and interests |
-| `4-archives/` | Completed or inactive items |
-| `5-notes/` | Digital inbox: captures, contacts, meetings |
+| `5-archives/` | Completed or inactive items |
+| `6-notes/` | Digital inbox: captures, contacts, meetings |
 | `_templates/` | Do not edit directly — use Templater |
 
 ---
@@ -1168,7 +1169,7 @@ Create one Project in `1-projects/`. Link it to a Goal. Write your SMART Outcome
 | Cadence | What to do |
 |---------|-----------|
 | **Daily** | Open today's Daily Note. Work through Overdue → Due Today → Ongoing. Journal at end of day. |
-| **Weekly (Sunday)** | Run the Weekly Review: Close → Reflect → Plan. Empty the `5-notes/` inbox. |
+| **Weekly (Sunday)** | Run the Weekly Review: Close → Reflect → Plan. Empty the `6-notes/` inbox. |
 | **Monthly** | Run Monthly Review. Assess Goal progress. Adjust Project priorities. |
 | **Quarterly** | Full Wheel of Life check. Reset Goals if needed. 80/20 analysis. |
 | **Yearly** | Year-in-review reflection. Design the next year's vision. |
@@ -1201,7 +1202,7 @@ Execute the following checks in order. Report PASS or FAIL for each:
    - `2-areas/Health & Fitness.md` (2 queries)
    - `2-areas/Run a 5K.md` (1 query)
    - `1-projects/Couch to 5K Training Program.md` (2 queries)
-   - `5-notes/Jane Smith.md` (3 queries)
+   - `6-notes/Jane Smith.md` (3 queries)
 
 6. **Tasks query syntax check:** Open `1-projects/Couch to 5K Training Program.md` and confirm the Tasks plugin renders the two task blocks (Remaining and Completed). Confirm the 3 seed tasks appear under "Remaining Tasks."
 
@@ -1250,7 +1251,7 @@ When complete, output a summary in this exact format:
 ### Known Limitations vs. Paid ObsiBrain:
 - No command palette modals for guided note creation (use templates manually)
 - No vault self-healing or rename protection
-- No Archive Page command (move files manually to 4-archives/)
+- No Archive Page command (move files manually to 5-archives/)
 - No Change Status command (edit frontmatter directly)
 - No habit contribution grid visualization
 - No one-click update engine

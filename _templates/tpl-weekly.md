@@ -12,8 +12,8 @@ tags: [plan/weekly]
 
 ## 🧹 CLOSE — Clean Sweep
 
-- [x] Process and empty `5-notes/` inbox ✅ 2026-05-25
-- [x] Archive completed projects (move to `4-archives/` or run **Archive (recursive)**) ✅ 2026-05-25
+- [x] Process and empty `6-notes/` inbox ✅ 2026-05-25
+- [x] Archive completed projects (move to `5-archives/` or run **Archive (recursive)**) ✅ 2026-05-25
 - [x] Check [[Vault Activity#Unresolved frontmatter links (Weekly Review)|unresolved frontmatter links]] ✅ 2026-05-25
 - [x] Clear physical desk and digital downloads folder ✅ 2026-05-25
 - [x] Review and close open browser tabs ✅ 2026-05-25

@@ -27,7 +27,7 @@ created: <% tp.date.now("YYYY-MM-DD") %>
 ## Meeting History
 ```dataview
 TABLE scheduled AS "Date", location AS "Location"
-FROM "5-notes"
+FROM "6-notes"
 WHERE type = "meeting" AND contains(attendees, this.file.link)
 SORT scheduled DESC
 ```

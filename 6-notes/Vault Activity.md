@@ -4,8 +4,6 @@ tags: [dashboard/activity]
 ---
 # Vault Activity
 
-GitHub-style heatmap tracking all file creations and modifications in the vault.
-
 ```dataviewjs
 const trackerData = {
   entries: [],

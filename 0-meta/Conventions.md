@@ -27,7 +27,7 @@ During Weekly Review, scan the [[Vault Activity#Unresolved frontmatter links (We
 Run **QuickAdd: Archive (recursive)** from the command palette on any note to:
 
 1. Set `status` to `completed` or `canceled`
-2. Move the note to `4-archives/<original-path>` (mirrors PARA subfolders)
+2. Move the note to `5-archives/<original-path>` (mirrors PARA subfolders)
 3. Recursively offer dependent notes (backlinks) for co-archiving
 
 ## New note commands

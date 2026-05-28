@@ -1,10 +1,13 @@
 ---
 type: note
-tags: [health, habits]
+tags:
+  - health
+  - habits
 related: "[[Health & Fitness]]"
 created: 2025-01-06
+status: canceled
 ---
-
+a
 # Idea — Morning Routine Tweak
 
 Try moving the 10-minute stretch to *before* coffee instead of after. Anecdotally reduces morning stiffness according to a Tim Ferriss podcast episode.

@@ -8,7 +8,7 @@ module.exports = async (params) => {
     return;
   }
 
-  if (activeFile.path.startsWith("4-archives/")) {
+  if (activeFile.path.startsWith("5-archives/")) {
     new Notice("This note is already archived.");
     return;
   }
@@ -25,7 +25,7 @@ module.exports = async (params) => {
   const collectDependents = (file, acc = new Set()) => {
     const backlinkMap = app.metadataCache.getBacklinksForFile(file)?.data ?? {};
     for (const path of Object.keys(backlinkMap)) {
-      if (path.startsWith("4-archives/") || acc.has(path)) continue;
+      if (path.startsWith("5-archives/") || acc.has(path)) continue;
       const dep = app.vault.getAbstractFileByPath(path);
       if (!dep || dep.extension !== "md") continue;
       acc.add(path);
@@ -48,6 +48,17 @@ module.exports = async (params) => {
     return depth(b) - depth(a);
   });
 
+  const ensureFolderRecursive = async (path) => {
+    const folders = path.split("/");
+    let currentPath = "";
+    for (const folder of folders) {
+      currentPath += (currentPath ? "/" : "") + folder;
+      if (!app.vault.getAbstractFileByPath(currentPath)) {
+        await app.vault.createFolder(currentPath);
+      }
+    }
+  };
+
   for (const path of targets) {
     if (archived.has(path)) continue;
     const file = app.vault.getAbstractFileByPath(path);
@@ -57,10 +68,10 @@ module.exports = async (params) => {
       fm.status = status;
     });
 
-    const archivePath = `4-archives/${file.path}`;
+    const archivePath = `5-archives/${file.path}`;
     const archiveFolder = archivePath.substring(0, archivePath.lastIndexOf("/"));
-    if (archiveFolder && !app.vault.getAbstractFileByPath(archiveFolder)) {
-      await app.vault.createFolder(archiveFolder);
+    if (archiveFolder) {
+      await ensureFolderRecursive(archiveFolder);
     }
 
     await app.fileManager.renameFile(file, archivePath);

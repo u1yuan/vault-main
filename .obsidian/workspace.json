@@ -13,26 +13,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "6-notes/Habits Dashboard.md",
+                "file": "2026-05-25.md",
                 "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Habits Dashboard"
+              "title": "2026-05-25"
             }
           },
           {
-            "id": "0328f738983d980e",
+            "id": "844cdc67d3f3cf09",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Untitled.md",
-                "mode": "preview",
+                "file": "5-archives/6-notes/Idea - Morning routine tweak.md",
+                "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Untitled"
+              "title": "Idea - Morning routine tweak"
             }
           }
         ],
@@ -171,13 +171,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "PLAN.md",
+                "file": "5-archives/6-notes/Idea - Morning routine tweak.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of PLAN"
+              "title": "Outline of Idea - Morning routine tweak"
             }
           },
           {
@@ -186,8 +186,8 @@
             "state": {
               "type": "calendar",
               "state": {},
-              "icon": "lucide-ghost",
-              "title": "calendar"
+              "icon": "calendar-with-checkmark",
+              "title": "Calendar"
             }
           },
           {
@@ -236,14 +236,33 @@
       "periodic-notes:Open today's daily note": false
     }
   },
-  "active": "2cdd9d5ea4040e16",
+  "active": "844cdc67d3f3cf09",
   "lastOpenFiles": [
+    "docs/superpowers/plans/2026-05-25-update-folder-references.md",
+    "5-archives/6-notes/Idea - Morning routine tweak 1.md",
+    "5-archives/6-notes/Kickoff Meeting - Couch to 5K 1.md",
+    "5-archives/6-notes/Jane Smith 1.md",
+    "5-archives/6-notes/Idea - Morning routine tweak.md",
+    "5-archives/PLAN.md",
+    "5-archives/2-areas/Run a 5K.md",
+    "5-archives/2-areas",
+    "2026-05-28.md",
+    "6-notes/Vault Activity.md",
+    "6-notes/TechSprint Marketing Meeting3.md",
+    "README.md",
+    "6-notes/Habits Dashboard.md",
+    "5-archives/6-notes/Kickoff Meeting - Couch to 5K.md",
+    "5-archives/6-notes/Jane Smith.md",
+    "5-archives/6-notes",
+    "5-archives",
+    "Untitled.md",
+    "2026-05-25.md",
+    "START HERE.md",
+    "Untitled 1.md",
     "Verification-Cornell-Note.md",
     "_templates/tpl-cornell.md",
     "docs/superpowers/plans/2026-05-28-cornell-note-template.md",
     "docs/superpowers/plans",
-    "6-notes/Habits Dashboard.md",
-    "Untitled.md",
     "docs/superpowers/specs/2026-05-28-cornell-note-template-design.md",
     "docs/superpowers/specs",
     "docs/superpowers",
@@ -251,28 +270,9 @@
     "Cornell-Note-Examples.md",
     "1-projects/11-thesis-prologue/sprint-plan/Cross-cutting Habits.md",
     "1-projects/11-thesis-prologue/sprint-plan/Phase 1 — Foundation.md",
-    "2026-05-28.md",
     "1-projects/11-thesis-prologue/sprint-plan/Thesis Sprint Curriculum.md",
-    "5-archives/2-areas/Run a 5K.md",
-    "1-projects/11-thesis-prologue/sprint-plan/Sprint 1 — Python for Data Science.md",
-    "1-projects/11-thesis-prologue/sprint-plan/Sprint 2 — ML Fundamentals and Evaluation.md",
-    "1-projects/11-thesis-prologue/sprint-plan/Week 0 Setup.md",
-    "1-projects/11-thesis-prologue/sprint-plan/Thesis Learning Resources Index.md",
-    "START HERE.md",
-    "README.md",
-    "2026-05-25.md",
-    "0-plan/daily/2026-05-25.md",
-    "0-plan/daily/2026-05-23.md",
-    "6-notes/Idea - Morning routine tweak.md",
-    "2-areas/FEU Tech ACM Student Chapter.md",
     "4-resources",
-    "1-projects/ACM TechSprint Asteria 2026.md",
-    "5-archives/2-areas",
-    "2-areas/Health & Fitness.md",
     "1-projects/11-thesis-prologue/notebooks",
-    "1-projects/11-thesis-prologue/models",
-    "1-projects/11-thesis-prologue/docs",
-    "1-projects/11-thesis-prologue/sprint-plan",
-    "1-projects/11-thesis-prologue/sprint-plan/README 1.md"
+    "1-projects/11-thesis-prologue/models"
   ]
 }

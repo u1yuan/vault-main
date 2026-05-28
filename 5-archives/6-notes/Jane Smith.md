@@ -1,11 +1,13 @@
 ---
 type: person
-phone: "+1 555 0101"
-email: "jane@example.com"
-title: "Product Manager"
-company: "Acme Corp"
-tags: [notes/people]
+phone: +1 555 0101
+email: jane@example.com
+title: Product Manager
+company: Acme Corp
+tags:
+  - notes/people
 created: 2025-01-06
+status: completed
 ---
 
 # Jane Smith
@@ -21,7 +23,7 @@ created: 2025-01-06
 ## Meeting History
 ```dataview
 TABLE scheduled AS "Date", location AS "Location"
-FROM "5-notes"
+FROM "6-notes"
 WHERE type = "meeting" AND contains(attendees, this.file.link)
 SORT scheduled DESC
 ```
