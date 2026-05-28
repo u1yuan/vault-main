@@ -26,8 +26,17 @@ Use **hourly electricity-style data** (start with [PJM hourly energy](https://ww
 
 ## Resources
 
-- Hyndman & Athanasopoulos [FPP](https://otexts.com) ch. 2–3, 9
-- statsmodels docs
+## Resources
+
+### 🎓 External Curriculum
+From [[Thesis Learning Resources Index#Sprint 5E: Time Series Foundations (Energy)]]:
+- **DataCamp:** [ARIMA Models in Python](https://www.datacamp.com/courses/arima-models-in-python) — Critical for SARIMAX baselines.
+- **DataCamp:** [Time Series Analysis in Python](https://www.datacamp.com/courses/time-series-analysis-in-python) — ACF/PACF and stationarity.
+- **LinkedIn Learning:** *Python for Time Series Forecasting* (Jesús López) — Full pipeline walkthrough.
+
+### 📚 Reference
+- [Forecasting: Principles and Practice (Hyndman & Athanasopoulos)](https://otexts.com/fpp3/)
+- Statsmodels documentation for `SARIMAX`
 
 ## Sprint checklist
 

@@ -26,8 +26,17 @@ On hourly load data: fit `SARIMAX` with seasonal period **s=24** (and try s=168)
 
 ## Resources
 
-- statsmodels SARIMAX examples
-- FPP ch. 9
+## Resources
+
+### 🎓 External Curriculum
+From [[Thesis Learning Resources Index#Sprint 7E: SARIMAX Baseline]]:
+- **DataCamp:** [ARIMA Models in Python](https://www.datacamp.com/courses/arima-models-in-python) — Detailed focus on `SARIMAX` and exogenous variables.
+- **DataCamp:** [Time Series Analysis in Python](https://www.datacamp.com/courses/time-series-analysis-in-python) — Foundation for statistical forecasting.
+- **LinkedIn Learning:** *Python for Time Series Forecasting* (Jesús López) — Practical SARIMA/SARIMAX pipeline.
+
+### 📚 Reference
+- Statsmodels documentation for `SARIMAX`
+- [Forecasting: Principles and Practice (Hyndman & Athanasopoulos) ch. 9](https://otexts.com/fpp3/arima.html)
 
 ## Sprint checklist
 

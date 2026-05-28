@@ -32,3 +32,16 @@ created: 2026-05-23
 - [ ] Stretch: Diebold–Mariano test
 
 See [[How Each Sprint Works]] · [[Cross-cutting Habits]]
+
+
+## Resources
+
+### 🎓 External Curriculum
+From [[Thesis Learning Resources Index#Sprint 10E: Domain Knowledge Viz and Significance]]:
+- **DataCamp:** [Case Study: Renewable Energy Production](https://www.datacamp.com/courses/case-study-renewable-energy-production) — Domain-specific energy forecasting.
+- **LinkedIn Learning:** *Energy Analytics and Data Science* — Domain context for grid operations.
+- **LinkedIn Learning:** *Smart Grid Fundamentals* — Understanding AMI and smart meter data sources.
+
+### 📚 Reference
+- [EPIRA Overview (DOE Philippines)](https://www.doe.gov.ph/epira)
+- [`arch` library documentation for DM test](https://bashtage.github.io/arch/timeseries/timeseries.html)

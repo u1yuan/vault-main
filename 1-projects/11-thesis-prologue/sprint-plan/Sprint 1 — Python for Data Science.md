@@ -27,8 +27,18 @@ Ingest a deliberately messy public dataset (e.g. [UCI Adult](https://archive.ics
 
 ## Resources
 
+## Resources
+
+### 🎓 External Curriculum
+From [[Thesis Learning Resources Index#Sprint 1: Python for Data Science]]:
+- **DataCamp:** [Data Manipulation with pandas](https://www.datacamp.com/courses/data-manipulation-with-pandas) — Master `groupby`, `pivot`, and `melt`.
+- **DataCamp:** [Exploratory Data Analysis in Python](https://www.datacamp.com/courses/exploratory-data-analysis-in-python) — Visualizing messy datasets.
+- **LinkedIn Learning:** *Pandas for Data Science* (Matt Harrison) — Idiomatic pandas patterns.
+- **LinkedIn Learning:** *Python Data Science: pandas, Matplotlib, and Seaborn* — End-to-end EDA walkthrough.
+
+### 📚 Reference
 - *Python for Data Analysis* (McKinney)
-- pandas/sklearn docs
+- pandas/sklearn documentation
 
 ## Sprint checklist
 

@@ -29,9 +29,17 @@ created: 2026-05-23
 
 ## Resources
 
-- Jay Alammar *Illustrated Transformer*
-- HuggingFace NLP Course ch. 1–4
-- Vaswani et al. 2017
+## Resources
+
+### 🎓 External Curriculum
+From [[Thesis Learning Resources Index#Sprint 5N: Transformers and Attention (NLP)]]:
+- **DataCamp:** [Hugging Face Fundamentals (Track)](https://www.datacamp.com/tracks/hugging-face-fundamentals) — The "Gold Standard" for HF pipelines.
+- **LinkedIn Learning:** *Transformers: Text Classification for NLP Using BERT* — Deep dive into Multi-Head Attention math.
+- **DataCamp:** [Introduction to LLMs in Python](https://www.datacamp.com/courses/introduction-to-llms-in-python) — Conceptual architecture.
+
+### 📚 Reference
+- ["Attention is All You Need" (Vaswani et al.)](https://arxiv.org/abs/1706.03762)
+- [The Illustrated Transformer (Jay Alammar)](https://jalammar.github.io/illustrated-transformer/)
 
 ## Sprint checklist
 

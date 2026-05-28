@@ -31,3 +31,15 @@ You can demo one command that reproduces all tables/figures from a clean clone.
 - [ ] Optional: annotation agreement pilot
 
 See [[How Each Sprint Works]] · [[Cross-cutting Habits]]
+
+
+## Resources
+
+### 🎓 External Curriculum
+From [[Thesis Learning Resources Index#Phase 3N — NLP Track]]:
+- **DataCamp:** [AI Agents with Hugging Face smolagents](https://www.datacamp.com/courses/ai-agents-with-hugging-face-smolagents) — Modern deployment patterns.
+- **LinkedIn Learning:** *Learning Path: Become a Machine Learning Engineer* — Finalizing production-ready projects.
+
+### 📚 Reference
+- [Hugging Face Spaces: Model Deployment](https://huggingface.co/spaces)
+- [Streamlit for NLP Apps](https://streamlit.io/gallery?category=nlp)

@@ -30,8 +30,17 @@ Two notebooks:
 
 ## Resources
 
-- 3Blue1Brown Essence of Linear Algebra
-- Deisenroth *Mathematics for ML* (free PDF)
+## Resources
+
+### 🎓 External Curriculum
+From [[Thesis Learning Resources Index#Sprint 6: Linear Algebra and Probability]]:
+- **LinkedIn Learning:** *Machine Learning Foundations: Linear Algebra* (Tsvi Kopelowitz) — Visual intuition for vectors/matrices.
+- **DataCamp:** [Foundations of Probability in Python](https://www.datacamp.com/courses/foundations-of-probability-in-python) — Distrubutions and CLT.
+- **LinkedIn Learning:** *Statistics Foundations: Probability* (Eddie Davila) — Bayes' Theorem fundamentals.
+
+### 📚 Reference
+- *Introduction to Linear Algebra* (Gilbert Strang)
+- [3Blue1Brown: Essence of Linear Algebra (YouTube)](https://www.youtube.com/playlist?list=PLZHQObOWTQDPD3MizzM2xVFitgF8hE_ab)
 
 ## Sprint checklist
 

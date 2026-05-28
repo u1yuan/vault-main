@@ -29,3 +29,17 @@ Read 3–5 papers on Filipino code-switching in social media. Write 2-page **the
 - [ ] Defence sheet (5 Q&A)
 
 See [[How Each Sprint Works]] · [[Cross-cutting Habits]]
+
+
+## Resources
+
+### 🎓 External Curriculum
+From [[Thesis Learning Resources Index#Sprint 9N: Sociolinguistics and Research Ethics]]:
+- **LinkedIn Learning:** *Ethical Considerations in NLP and Bias Mitigation* — Representational and algorithmic bias.
+- **DataCamp:** [AI Ethics](https://www.datacamp.com/courses/ai-ethics) — Fairness, accountability, and transparency.
+- **LinkedIn Learning:** *Ethics of AI and ML* (Seth Golden) — Philosophical foundations.
+- **DataCamp:** [Spoken Language Processing in Python](https://www.datacamp.com/courses/spoken-language-processing-in-python) — Diversity in language data.
+
+### 📚 Reference
+- ["On the Dangers of Stochastic Parrots" (Bender et al.)](https://dl.acm.org/doi/10.1145/3442188.3445922)
+- [ACL Ethics Policy](https://www.aclweb.org/portal/content/acl-code-ethics)

@@ -30,9 +30,18 @@ Pick a **provisional thesis topic** (one sentence). Find **12 papers** (Scopus/I
 
 ## Resources
 
-- Graff & Birkenstein *They Say / I Say*
-- Purdue OWL
-- University library workshops
+## Resources
+
+### 🎓 External Curriculum
+From [[Thesis Learning Resources Index#Sprint 4: Academic Writing and Lit Review]]:
+- **LinkedIn Learning:** *How to Develop a Literature Review* — Synthesis vs. Summary.
+- **LinkedIn Learning:** *Writing in Plain English* — Clarity in complex technical writing.
+- **LinkedIn Learning:** *Academic Research Foundations* — Ethics and research design.
+- **DataCamp:** [Communicating Data Insights](https://www.datacamp.com/courses/communicating-data-insights) — Reporting findings to stakeholders.
+
+### 📚 Reference
+- *The Elements of Style* (Strunk & White)
+- [Zotero Documentation](https://www.zotero.org/support/)
 
 ## Sprint checklist
 

@@ -30,3 +30,16 @@ From [[Sprint 8N — HuggingFace Trainer and Imbalanced Metrics|Sprint 8N]] outp
 - [ ] 2+ figures at 300 DPI
 
 See [[How Each Sprint Works]] · [[Cross-cutting Habits]]
+
+
+## Resources
+
+### 🎓 External Curriculum
+From [[Thesis Learning Resources Index#Sprint 10N: Visualization and Explainability]]:
+- **DataCamp:** [Explainable AI in Python](https://www.datacamp.com/courses/explainable-ai-in-python) — Practical SHAP and LIME.
+- **LinkedIn Learning:** *Interpretable Machine Learning: Understanding Black-Box Models with SHAP and LIME* (Keith McCormick).
+- **LinkedIn Learning:** *Visualizing Machine Learning* — Conceptual clarity on model interpretation.
+
+### 📚 Reference
+- [SHAP Documentation: Text Examples](https://shap.github.io/shap/notebooks/text_examples/sentiment_analysis/Emotion%20classification%20explanation.html)
+- [LIME Documentation](https://github.com/marcotcr/lime)

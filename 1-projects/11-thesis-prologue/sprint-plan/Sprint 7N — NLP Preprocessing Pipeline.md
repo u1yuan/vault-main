@@ -32,3 +32,17 @@ Build a preprocessing module on **Filipino/Taglish text** (public sets e.g. [Hat
 - [ ] 2 figures at 300 DPI
 
 See [[How Each Sprint Works]] · [[Cross-cutting Habits]]
+
+
+## Resources
+
+### 🎓 External Curriculum
+From [[Thesis Learning Resources Index#Sprint 7N: NLP Preprocessing Pipeline]]:
+- **DataCamp:** [Natural Language Processing with spaCy](https://www.datacamp.com/courses/natural-language-processing-with-spacy) — Building efficient custom pipelines.
+- **DataCamp:** [Introduction to NLP in Python](https://www.datacamp.com/courses/introduction-to-nlp-in-python) — NLTK basics.
+- **LinkedIn Learning:** *NLP with Python for Machine Learning Essential Training* (Derek Jedamski) — The definitive pipeline guide.
+- **DataCamp:** [Regular Expressions in Python](https://www.datacamp.com/courses/regular-expressions-in-python) — Advanced cleaning patterns.
+
+### 📚 Reference
+- [spaCy Usage Guide: Pipelines](https://spacy.io/usage/processing-pipelines)
+- [NLTK Book](https://www.nltk.org/book/)

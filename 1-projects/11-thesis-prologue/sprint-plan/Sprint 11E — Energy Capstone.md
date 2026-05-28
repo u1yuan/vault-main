@@ -31,3 +31,15 @@ Panel-ready comparison table (MAPE/RMSE + optional DM p-value) and interpretable
 - [ ] Stretch: SHAP interpretability figure
 
 See [[How Each Sprint Works]] · [[Cross-cutting Habits]]
+
+
+## Resources
+
+### 🎓 External Curriculum
+From [[Thesis Learning Resources Index#Phase 3E — Energy Track]]:
+- **LinkedIn Learning:** *Learning Path: Become a Machine Learning Engineer* — Finalizing production-ready projects.
+- **DataCamp:** [CI/CD for Machine Learning](https://www.datacamp.com/courses/ci-cd-for-machine-learning) — Reproducible model pipelines.
+
+### 📚 Reference
+- [Streamlit for Energy Dashboards](https://streamlit.io/gallery?category=energy)
+- [FastAPI for Model Serving](https://fastapi.tiangolo.com/)

@@ -25,8 +25,17 @@ Fine-tune a small transformer (DistilBERT → then **RoBERTa** or multilingual c
 
 ## Resources
 
-- HF Course ch. 3, 5–6
-- Tunstall et al. *NLP with Transformers*
+## Resources
+
+### 🎓 External Curriculum
+From [[Thesis Learning Resources Index#Sprint 8N: HuggingFace Trainer and Imbalanced Metrics]]:
+- **DataCamp:** [Fine-Tuning with Llama 3](https://www.datacamp.com/courses/fine-tuning-with-llama-3) — Deep dive into LoRA and QLoRA.
+- **LinkedIn Learning:** *Understanding Machine Learning, Testing and Fine-Tuning with HuggingFace* — Model bias and functional testing.
+- **LinkedIn Learning:** *Transformers and NLP: Fine-Tuning Models with Hugging Face* — Using `SFTTrainer`.
+
+### 📚 Reference
+- [Hugging Face Course: Fine-tuning a pre-trained model](https://huggingface.co/learn/nlp-course/chapter3/1)
+- [Scikit-learn: Precision-Recall curves for imbalanced data](https://scikit-learn.org/stable/auto_examples/model_selection/plot_precision_recall.html)
 
 ## Sprint checklist
 

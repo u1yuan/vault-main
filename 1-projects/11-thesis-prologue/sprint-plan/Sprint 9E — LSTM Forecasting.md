@@ -20,8 +20,17 @@ Keras/PyTorch LSTM: input shape (batch, timesteps, features), scaling, dropout, 
 
 ## Resources
 
-- Colah LSTM
-- Keras LSTM tutorial
+## Resources
+
+### 🎓 External Curriculum
+From [[Thesis Learning Resources Index#Sprint 9E: LSTM Forecasting]]:
+- **DataCamp:** [Introduction to Deep Learning with Keras](https://www.datacamp.com/courses/introduction-to-deep-learning-with-keras) — Sections on RNNs and LSTMs.
+- **LinkedIn Learning:** *Deep Learning: Time Series and Forecasting* — Understanding the 3D tensor input format.
+- **LinkedIn Learning:** *Applied Machine Learning: Time Series* — Neural network architectures for sequence data.
+
+### 📚 Reference
+- [Understanding LSTM Networks (Colah)](https://colah.github.io/posts/2015-08-Understanding-LSTMs/)
+- [Keras LSTM layer documentation](https://keras.io/api/layers/recurrent_layers/lstm/)
 
 ## Sprint checklist
 

@@ -22,8 +22,18 @@ Build feature matrix: lags (t-1, t-24, t-168), rolling means/std, cyclical hour 
 
 ## Resources
 
+## Resources
+
+### 🎓 External Curriculum
+From [[Thesis Learning Resources Index#Sprint 8E: Feature Engineering and Tree Models]]:
+- **DataCamp:** [Machine Learning for Time Series Data in Python](https://www.datacamp.com/courses/machine-learning-for-time-series-data-in-python) — Engineering lags and rolling windows.
+- **DataCamp:** [Machine Learning with Tree-Based Models in Python](https://www.datacamp.com/courses/machine-learning-with-tree-based-models-in-python) — XGBoost and Random Forests.
+- **DataCamp:** [Feature Engineering for Machine Learning in Python](https://www.datacamp.com/courses/feature-engineering-for-machine-learning-in-python) — Handling cyclical features ($\sin$/$\cos$).
+- **LinkedIn Learning:** *Machine Learning with Tree-Based Models in Python* — Focus on ensemble methods.
+
+### 📚 Reference
 - Zheng & Casari *Feature Engineering for ML*
-- Kaggle TS tutorials
+- [Kaggle Time Series Tutorial](https://www.kaggle.com/learn/time-series)
 
 ## Sprint checklist
 

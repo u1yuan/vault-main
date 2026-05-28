@@ -26,7 +26,19 @@ Refactor Sprints 1–2 into `src/` + CLI (`argparse` or `config.yaml`): fixed se
 
 ## Resources
 
-- MIT *Missing Semester* (Git + tooling)
+## Resources
+
+### 🎓 External Curriculum
+From [[Thesis Learning Resources Index#Sprint 3: Git and Reproducible Workflow]]:
+- **DataCamp:** [Git Fundamentals (Track)](https://www.datacamp.com/tracks/git-fundamentals) — Branching and conflict resolution for DS.
+- **DataCamp:** [Introduction to Data Versioning with DVC](https://www.datacamp.com/courses/introduction-to-data-versioning-with-dvc) — Mandatory for versioning messy datasets.
+- **DataCamp:** [Developing Python Packages](https://www.datacamp.com/courses/developing-python-packages) — Building the `src/` directory properly.
+- **LinkedIn Learning:** *Git for Data Science* — Managing large files and notebook versioning.
+- **LinkedIn Learning:** *Practical MLOps* — Principles of reproducibility.
+
+### 📚 Reference
+- [The Turing Way: Guide for Reproducible Research](https://the-turing-way.netlify.app/reproducible-research/reproducible-research.html)
+- [Cookiecutter Data Science](https://drivendata.github.io/cookiecutter-data-science/)
 
 ## Sprint checklist
 

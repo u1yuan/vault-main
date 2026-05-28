@@ -29,8 +29,18 @@ Same repo, two tasks:
 
 ## Resources
 
-- Géron *Hands-On ML*
-- Andrew Ng ML Specialisation (audit)
+## Resources
+
+### 🎓 External Curriculum
+From [[Thesis Learning Resources Index#Sprint 2: ML Fundamentals and Evaluation]]:
+- **DataCamp:** [Supervised Learning with scikit-learn](https://www.datacamp.com/courses/supervised-learning-with-scikit-learn) — Core API and Pipelines.
+- **DataCamp:** [Model Validation in Python](https://www.datacamp.com/courses/model-validation-in-python) — Cross-validation and hyperparameter tuning.
+- **LinkedIn Learning:** *Evaluating and Validating Machine Learning Models* — Precision/Recall/F1 and diagnostic plots.
+- **LinkedIn Learning:** *Machine Learning and AI Foundations: Classification Modeling* — Theoretical depth on classifiers.
+
+### 📚 Reference
+- *Hands-On Machine Learning with Scikit-Learn, Keras, and TensorFlow* (Geron)
+- Scikit-learn User Guide (Section 3: Model Evaluation)
 
 ## Sprint checklist
 
