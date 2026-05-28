@@ -37,6 +37,7 @@ module.exports = async (params) => {
       "_templates/tpl-person.md",
       "_templates/tpl-meeting.md",
       "_templates/tpl-fleeting-note.md",
+      "_templates/tpl-cornell.md",
     ];
 
     for (const p of templatePaths) {

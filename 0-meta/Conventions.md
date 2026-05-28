@@ -32,6 +32,6 @@ Run **QuickAdd: Archive (recursive)** from the command palette on any note to:
 
 ## New note commands
 
-Seven QuickAdd commands create typed notes with enum-validated frontmatter:
+Eight QuickAdd commands create typed notes with enum-validated frontmatter:
 
-- New Task, New Project, New Goal, New Area, New Person, New Meeting, New Fleeting Note
+- New Task, New Project, New Goal, New Area, New Person, New Meeting, New Fleeting Note, New Cornell Note

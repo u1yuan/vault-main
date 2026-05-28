@@ -218,6 +218,37 @@
       }
     },
     {
+      "name": "New Cornell Note",
+      "id": "a100000e-0001-4000-8000-00000000000e",
+      "type": "Template",
+      "command": true,
+      "templatePath": "_templates/tpl-cornell.md",
+      "folder": {
+        "enabled": true,
+        "folders": [
+          "6-notes"
+        ],
+        "chooseWhenCreatingNote": false,
+        "createInSameFolderAsActiveFile": false,
+        "chooseFromSubfolders": false
+      },
+      "fileNameFormat": {
+        "enabled": true,
+        "format": "{{VALUE}}"
+      },
+      "appendLink": false,
+      "openFile": true,
+      "fileOpening": {
+        "location": "tab",
+        "direction": "vertical",
+        "mode": "default",
+        "focus": true
+      },
+      "fileExistsBehavior": {
+        "kind": "prompt"
+      }
+    },
+    {
       "name": "Archive (recursive)",
       "id": "a1000008-0001-4000-8000-000000000008",
       "type": "Macro",
