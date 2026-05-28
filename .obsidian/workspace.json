@@ -8,35 +8,91 @@
         "type": "tabs",
         "children": [
           {
-            "id": "6c0329188883ec3e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "2026-05-25.md",
-                "mode": "preview",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "2026-05-25"
-            }
-          },
-          {
             "id": "844cdc67d3f3cf09",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "5-archives/6-notes/Idea - Morning routine tweak.md",
+                "file": "5-notes/Daily/2026-05-28.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Idea - Morning routine tweak"
+              "title": "2026-05-28"
+            }
+          },
+          {
+            "id": "e6fae304ac8a5904",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "5-notes/Midterm Prep.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Midterm Prep"
+            }
+          },
+          {
+            "id": "032a3a19d7442c68",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "2-areas/3T2526.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "3T2526"
+            }
+          },
+          {
+            "id": "00689ddd529296de",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "2-areas/Midterm Proficiency.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Midterm Proficiency"
+            }
+          },
+          {
+            "id": "0106308775e6aa3b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "5-notes/Midterm Prep.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Midterm Prep"
+            }
+          },
+          {
+            "id": "8c4715e54f1c46f9",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "5-notes/Daily/2026-05-28.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "2026-05-28"
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -171,13 +227,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "5-archives/6-notes/Idea - Morning routine tweak.md",
+                "file": "5-notes/Daily/2026-05-28.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Idea - Morning routine tweak"
+              "title": "Outline of 2026-05-28"
             }
           },
           {
@@ -211,7 +267,7 @@
             }
           }
         ],
-        "currentTab": 7
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
@@ -236,43 +292,43 @@
       "periodic-notes:Open today's daily note": false
     }
   },
-  "active": "844cdc67d3f3cf09",
+  "active": "8c4715e54f1c46f9",
   "lastOpenFiles": [
+    "5-notes/Tasks.md",
+    "5-notes/Midterm Prep.md",
+    "0-meta/quickadd-self-test-result.md",
+    "2-areas/Midterm Proficiency.md",
+    "2-areas/Health & Fitness.md",
+    "2-areas/FEU Tech ACM Student Chapter.md",
+    "1-projects/3T Revision.md",
+    "START HERE.md",
+    "README.md",
+    "2-areas/3T2526.md",
+    "2-areas/3T2526/FIT.md",
+    "2-areas/3T2526",
+    "5-notes/Daily/2026-05-28.md",
+    "5-notes",
+    "5-notes/Daily/2026-05-25.md",
+    "5-notes/Daily",
+    "5-notes/TechSprint Marketing Meeting3.md",
+    "5-archives/6-notes/Idea - Morning routine tweak.md",
     "docs/superpowers/plans/2026-05-25-update-folder-references.md",
     "5-archives/6-notes/Idea - Morning routine tweak 1.md",
     "5-archives/6-notes/Kickoff Meeting - Couch to 5K 1.md",
     "5-archives/6-notes/Jane Smith 1.md",
-    "5-archives/6-notes/Idea - Morning routine tweak.md",
     "5-archives/PLAN.md",
     "5-archives/2-areas/Run a 5K.md",
     "5-archives/2-areas",
-    "2026-05-28.md",
-    "6-notes/Vault Activity.md",
-    "6-notes/TechSprint Marketing Meeting3.md",
-    "README.md",
+    "5-notes/Vault Activity.md",
     "6-notes/Habits Dashboard.md",
     "5-archives/6-notes/Kickoff Meeting - Couch to 5K.md",
     "5-archives/6-notes/Jane Smith.md",
     "5-archives/6-notes",
     "5-archives",
     "Untitled.md",
-    "2026-05-25.md",
-    "START HERE.md",
-    "Untitled 1.md",
-    "Verification-Cornell-Note.md",
-    "_templates/tpl-cornell.md",
-    "docs/superpowers/plans/2026-05-28-cornell-note-template.md",
     "docs/superpowers/plans",
-    "docs/superpowers/specs/2026-05-28-cornell-note-template-design.md",
     "docs/superpowers/specs",
     "docs/superpowers",
-    "docs",
-    "Cornell-Note-Examples.md",
-    "1-projects/11-thesis-prologue/sprint-plan/Cross-cutting Habits.md",
-    "1-projects/11-thesis-prologue/sprint-plan/Phase 1 — Foundation.md",
-    "1-projects/11-thesis-prologue/sprint-plan/Thesis Sprint Curriculum.md",
-    "4-resources",
-    "1-projects/11-thesis-prologue/notebooks",
-    "1-projects/11-thesis-prologue/models"
+    "docs"
   ]
 }
